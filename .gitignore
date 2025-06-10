@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Redis
+*.rdb
+dump.rdb
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Instagram session files
+instaloader-session
+*instaloader-session*
+
+# Telegram bot session files
+*.session
+*.session-journal
+
+# Local development files
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage.*
+
+/data
+igtbb.ipynb
+.venv/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# PyCharm specific files
+*.iml
+# Pytest cache
+.pytest_cache/
+# Coverage reports
+.coverage
+# Jupyter Notebook checkpoints  
